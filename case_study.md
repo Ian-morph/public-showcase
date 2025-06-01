@@ -1,4 +1,6 @@
-#Mexico covid eda 
+# Mexico covid eda 
+
+This is an eda analysis carried out on a dataset for mexico covid 
 
  The following dataset is used: [COVID-19 Patient](https://www.kaggle.com/datasets/meirnizri/covid19-dataset/data)
 
@@ -736,5 +738,7 @@ This also means that using the median or mode for filling up missing values is i
 If analysis is required on these 3 variables, dropping/ignoring the N/A on another dataframe copy and carrying out the analysis on the remaining data can be considered.
 
 In comparison, the other columns, such as pneumonia, where mode was used to fill in missing data, had a low percentage of N/A values.
+
+The imputation of values for N/A would be ideally be carried out on the train set with the test data kept intact.
 ```
 

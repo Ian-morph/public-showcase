@@ -1,6 +1,6 @@
 # Dataset
 
-You will be working with the following dataset: [COVID-19 Patient](https://www.kaggle.com/datasets/meirnizri/covid19-dataset/data)
+ The following dataset is used: [COVID-19 Patient](https://www.kaggle.com/datasets/meirnizri/covid19-dataset/data)
 
 The dataset was provided by the Mexican government, and contains the following information:
 - usmer: Indicates whether the patient treated medical units of the first, second or third level
@@ -27,14 +27,8 @@ The dataset was provided by the Mexican government, and contains the following i
 
 *NOTE*: In the boolean features, 1 means "yes" and 2 means "no". values as 97 and 99 are missing data 
 
-📦 **Dataset Download Instructions**
-1. Download the dataset ZIP file from the above link.
-2. After downloading: Unzip the file to access Covid Data.csv. Note the full file path to Covid Data.csv — you'll need it in the next step.
-
 ## Business Question
 What factors are associated with increased risk of death among COVID-19 patients in Mexico?
-
-*To answer the above question, use pandas, matplotlib and seaborn to clean and explore the dataset, visualise your findings and address the following questions:*
 
 ## Extraction and initial look at data
 
@@ -744,11 +738,3 @@ If analysis is required on these 3 variables, dropping/ignoring the N/A on anoth
 In comparison, the other columns, such as pneumonia, where mode was used to fill in missing data, had a low percentage of N/A values.
 ```
 
-## Deliverables:
-- Python: Provide all the python code you used to answer the business questions.
-- Summary of Findings: For each question, summarise your key findings and recommendations based on your analysis.
-
-## Submission
-
-- Submit the GitHub URL of your assignment to the #peer-reviews channel on Discord.
-- Should you reference the work of your classmate(s) or online resources, give them credit by adding either the name of your classmate or URL.

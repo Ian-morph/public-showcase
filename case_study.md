@@ -1,4 +1,4 @@
-# Dataset
+#Mexico covid eda 
 
  The following dataset is used: [COVID-19 Patient](https://www.kaggle.com/datasets/meirnizri/covid19-dataset/data)
 

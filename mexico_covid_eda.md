@@ -739,6 +739,6 @@ If analysis is required on these 3 variables, dropping/ignoring the N/A on anoth
 
 In comparison, the other columns, such as pneumonia, where mode was used to fill in missing data, had a low percentage of N/A values.
 
-The imputation of values for N/A would be ideally be carried out on the train set with the test data kept intact.
+The imputation of values for N/A would be ideally be carried out on the train set, but the test data should be kept intact.
 ```
 

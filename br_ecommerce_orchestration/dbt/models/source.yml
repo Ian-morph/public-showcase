@@ -1,7 +1,7 @@
 version: 2
 sources:
   - name: br_ecommerce
-    database: iandemo2
+    database: 
     tables:
       - name: public_olist_customers_dataset
       - name: public_olist_geolocation_dataset

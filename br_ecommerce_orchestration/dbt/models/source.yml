@@ -1,0 +1,13 @@
+version: 2
+sources:
+  - name: br_ecommerce
+    database: iandemo2
+    tables:
+      - name: public_olist_customers_dataset
+      - name: public_olist_geolocation_dataset
+      - name: public_olist_order_items_dataset
+      - name: public_olist_order_payments_dataset
+      - name: public_olist_order_reviews_dataset
+      - name: public_olist_orders_dataset
+      - name: public_olist_sellers_dataset
+      - name: public_product_category_name_translation

@@ -8,7 +8,7 @@ DBT_PROJECT_ROOT = "/home/chuhao/dsai_sctp/br_e_commerce/DBT_JOB_v1.0/olist_braz
 GX_SCRIPT_PATH = "/home/chuhao/dsai_sctp/br_e_commerce/meltano-orchestration"
 GX_SCRIPT_FILE = "GX_tests_comb2.py"
 FEATURE_ENGINEERING_SCRIPT_PATH = "/home/chuhao/dsai_sctp/br_e_commerce/meltano-orchestration"
-FEATURE_ENGINEERING_SCRIPT_FILE = "feature_engineering2.py"
+FEATURE_ENGINEERING_SCRIPT_FILE = "feature_engineering4.py"
 
 @asset
 def supabase_postgres_to_bigquery(context: AssetExecutionContext):
